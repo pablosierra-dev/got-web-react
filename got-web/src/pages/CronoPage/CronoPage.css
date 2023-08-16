@@ -1,0 +1,82 @@
+.crono-page{
+    min-height: 100vh;
+    min-width: 85vw;
+}
+
+.crono-page-header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    gap: 10px;
+}
+
+.crono-gallery-container{
+    text-align: center;
+}
+
+.btn-order{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: black;
+    border: 3px solid white;
+    color: white;
+    font-size: 20px;
+    font-family: Game of Thrones;
+}
+
+.crono-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 700px;
+    margin-inline: auto;
+    color: white;
+    padding-top: 10px;
+
+}
+
+.crono-gallery-item{
+    width:350px;
+    height: 270px;
+    text-align: center;
+    border-top: 3px solid white;
+    align-self: end;
+}
+
+.crono-p-age{
+    margin: 0px 0px 5px;
+    font-size: 24px;
+}
+
+.div-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+.div-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.first-column{
+    border-right: 3px solid white;;
+}
+
+.second-column{
+    position: relative;
+    top: 50%;
+}
+.line{
+    width: 27px;
+    border: 1.9px solid white;
+    transform: rotate(90deg);
+    background-color: white;
+    margin-block: 0px;
+}

@@ -1,0 +1,33 @@
+.HomePage{
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: ; */
+  align-items: center;
+
+  background-image: url("../../../public/img/homepage-img.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.home-page-header{
+  width: 85%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.home-title-div{
+  width: 85%;
+}
+
+.home-title-text {
+  font-size: 9.5em;
+  text-align: center;
+  font-weight: 100;
+  color: white;
+  margin-top: 150px;
+}

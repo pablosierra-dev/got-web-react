@@ -1,0 +1,51 @@
+.house-detail{
+    display: flex;
+  flex-direction: column;
+  width: 85vw;
+  height: 95vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.house-detail-head{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+
+.header-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.head-img{
+    max-height: 300px;
+}
+
+.house-detail-data{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: white;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.settlement{
+    color: white;
+}
+
+.region{
+    color: white;
+}

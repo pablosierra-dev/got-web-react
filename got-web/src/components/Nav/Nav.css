@@ -1,0 +1,17 @@
+.nav{
+    font-size: 1.8em;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    bottom: 30px;
+    position: fixed;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link-active{
+    color: white;
+}

@@ -1,0 +1,9 @@
+.return-button{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+}
+.return-button-p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: none;
+}

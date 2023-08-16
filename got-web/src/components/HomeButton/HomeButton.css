@@ -1,0 +1,7 @@
+..home-button{
+    width: 45px;
+}
+
+.home-button:hover{
+    transform: scale(0.98);
+}

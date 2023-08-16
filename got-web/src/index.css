@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Game of Thrones;
+  src: url(../public/font/Game\ of\ Thrones.ttf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Game of Thrones;
+}

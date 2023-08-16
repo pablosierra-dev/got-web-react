@@ -1,0 +1,35 @@
+.houses-page{
+    min-height: 100vh;
+    min-width: 85vw;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .header-gallery{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+    
+    .header-gallery-buttons{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container-card{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 10px;
+    }
+    
+    .simplebar-scrollbar{
+        background: white;
+    }

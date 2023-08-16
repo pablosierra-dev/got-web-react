@@ -1,0 +1,10 @@
+
+.lang-nav-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.lang-nav-btn:hover{
+    transform: scale(0.98);
+}

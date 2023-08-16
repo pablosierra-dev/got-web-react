@@ -1,0 +1,32 @@
+.card {
+    width: 248px;
+    height: 320px;
+    margin: 0 24px 0 0;
+    object-fit: cover;
+}
+.card-box{
+    width: calc(250px + 1vw);
+    height: calc(300px + 1vw);
+    overflow: hidden;
+    position: relative;
+}
+.card-title {
+        font-size: 0.9rem;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        margin: 0;
+        display: none;
+        text-align: center;
+}
+.card-box:hover .card-title{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+    color:white;
+    display: block;
+}
+.container-link {
+    position: relative
+}

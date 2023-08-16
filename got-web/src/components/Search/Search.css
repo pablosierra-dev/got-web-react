@@ -1,0 +1,18 @@
+input {
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    width: 800px;
+    background-color: transparent;
+    color: white;
+}
+.lupa {
+    width: 25x;
+    height: 25px;
+
+}
+form {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
